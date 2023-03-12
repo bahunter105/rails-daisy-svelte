@@ -1,6 +1,9 @@
 {
+  "type": "module",
   "dependencies": {
-    "daisyui": "^2.51.3"
+    "@sveltejs/vite-plugin-svelte": "^2.0.3",
+    "daisyui": "^2.51.3",
+    "svelte": "^3.56.0"
   },
   "devDependencies": {
     "vite": "^4.1.4",
