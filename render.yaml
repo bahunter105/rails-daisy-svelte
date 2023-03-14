@@ -7,7 +7,7 @@ services:
   - type: web
     name: mysite
     env: ruby
-    buildCommand: "./bin/render-build.sh"
+    buildCommand: "vite build && ./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: DATABASE_URL
